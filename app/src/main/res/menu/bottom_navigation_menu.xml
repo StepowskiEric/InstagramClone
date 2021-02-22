@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/instagram_home_outline_24"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/add_picture"
+        android:enabled="true"
+        android:icon="@drawable/instagram_new_post_outline_24"
+        android:title="@string/upload_pic"/>
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/instagram_user_outline_24"
+        android:title="@string/userprofile"/>
+</menu>

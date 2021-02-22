@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="userprofile">UserProfile</string>
+    <string name="upload_pic">Upload Pic</string>
+    <string name="home">Home</string>
+    <string name="camera">camera</string>
+    <string name="camera_upload">camera upload</string>
+    <string name="instagram_title_name">instagram title name</string>
+    <string name="send_message">send message</string>
+    <string name="send_another_user_a_message">send another user a message</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uploaded_picture">Uploaded Picture</string>
+    <string name="todo">TODO</string>
+    <string name="register">Register</string>
+    <string name="log_out">Log Out</string>
+    <string name="text_here">text here</string>
+    <string name="placeholder">placeholder</string>
+</resources>

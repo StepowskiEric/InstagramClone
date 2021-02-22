@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/camera_shadow_fill"
+        android:title="@string/camera"
+        android:contentDescription="@string/camera_upload"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/nav_logo_whiteout"
+        android:title="@string/instagram_title_name"
+        android:contentDescription="@string/instagram_title_name"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/message"
+        android:title="@string/send_message"
+        android:icon="@drawable/direct"
+        android:contentDescription="@string/send_another_user_a_message"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+</menu>

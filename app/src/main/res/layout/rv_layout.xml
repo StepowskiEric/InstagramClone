@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" >
+
+
+    <TextView
+        android:id="@+id/rvUserName"
+        android:layout_width="97dp"
+        android:layout_height="29dp"
+        android:layout_alignTop="@+id/postImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="-46dp"
+        android:text="@string/placeholder" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/postImage"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="28dp"
+            android:src="@drawable/ufi_save" />
+
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/ivLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/ufi_heart" />
+
+    <ImageView
+        android:id="@+id/ivChatBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postImage"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/ivLike"
+        android:src="@drawable/ufi_comment" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/direct" />
+
+        <TextView
+            android:id="@+id/rvDescription"
+            android:layout_width="140dp"
+            android:layout_height="32dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@+id/ivLike"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="11dp"
+            android:hint="@string/text_here" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
